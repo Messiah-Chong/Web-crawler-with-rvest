@@ -148,8 +148,3 @@ write.csv(xes.table,"学而思广州.csv")
 library(xlsx)
 
 write.xlsx2(xes.table,"学而思广州.xlsx","学而思广州")
-
-# save data into mysql database
-library(RMySQL)
-
-con <- dbConnect(MySQL(),dbname = "mysql",user = "root",password = "password")
