@@ -5,8 +5,8 @@
 # Description: The "rvest" package is a powerful and
 # convenient tool for systematically browsing the web
 # and obtaining data with R. This script is an example
-# about how to scrape data from the web using multiprocess
-# instead of a single one.
+# about how to scrape data from the web using parallel
+# computation. We can do this using "parallel" package.
 #========================================
 
 # function for get information in a single page and manipulate it
